@@ -6,175 +6,123 @@
   <title>Algorithms & Data Structures | Sylvia Davis</title>
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background: #f7f7f7;
-      color: #111;
-    }
-    header {
-      background: #111;
-      color: #fff;
-      padding: 28px 20px;
-      text-align: center;
-    }
-    nav {
-      margin-top: 10px;
-      font-size: 14px;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 8px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      max-width: 950px;
-      margin: 25px auto;
-      padding: 25px;
-      background: white;
-      border-radius: 14px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-    }
-    h1, h2, h3 {
-      margin-top: 0;
-    }
-    .card {
-      background: #fafafa;
-      border: 1px solid #e5e5e5;
-      padding: 16px;
-      border-radius: 12px;
-      margin: 14px 0;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f7f7f7; }
+    header { background: #111; color: #fff; padding: 28px 20px; text-align: center; }
+    .nav { margin-top: 10px; font-size: 14px; }
+    .nav a { color: #fff; margin: 0 8px; text-decoration: none; }
+    .nav a:hover { text-decoration: underline; }
+
+    main { max-width: 950px; margin: 25px auto; padding: 25px; background: #fff; border-radius: 14px; }
+    h1, h2 { margin-top: 0; }
+    .card { background: #fafafa; border: 1px solid #e5e5e5; padding: 16px; border-radius: 12px; margin: 14px 0; }
     ul { padding-left: 20px; }
-    a { color: #0063ce; text-decoration: none; }
+    a { color: #0b63ce; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 6px;
-    }
-    .small-note {
-      font-size: 13px;
-      color: #444;
-      margin-top: 8px;
-    }
-    footer {
-      text-align: center;
-      margin-top: 25px;
-      font-size: 13px;
-      color: #666;
-    }
-    .badge {
-      display: inline-block;
-      background: #eee;
-      padding: 6px 10px;
-      border-radius: 20px;
-      margin: 4px;
-      font-size: 14px;
-    }
+    code { background: #eee; padding: 2px 6px; border-radius: 6px; }
+
+    .badge { display: inline-block; background: #eee; padding: 6px 10px; border-radius: 999px; margin: 4px 6px 0 0; font-size: 13px; }
+    .small-note { font-size: 13px; color: #444; margin-top: 8px; }
+
+    footer { text-align: center; padding: 18px; color: #666; font-size: 13px; }
   </style>
 </head>
 
 <body>
-
-<header>
-  <h1>Algorithms & Data Structures</h1>
-  <div class="nav">
-    <nav>
+  <header>
+    <h1>Algorithms & Data Structures</h1>
+    <div class="nav">
       <a href="index.html">Home</a> |
-      <a href="software-design.html">Software Design</a> |
-      <a href="code-review.html">Code Review</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-
-  <div class="card">
-    <h2>Artifact Overview</h2>
-    <p>
-      This artifact represents my <strong>Algorithms & Data Structures enhancement</strong> for the CS 499 Capstone.
-      I selected my CS 320 testing/validation project (Appointment Service + JUnit testing) because it demonstrates
-      structured data handling, repeatable validation logic, and algorithmic improvement through data-driven execution.
-    </p>
-
-    <div>
-      <span class="badge">Category: Algorithms & Data Structures</span>
-      <span class="badge">Course: CS 320 (Enhanced for CS 499)</span>
-      <span class="badge">Milestone: 3</span>
+      <a href="code-review.html">Code Review</a> |
+      <a href="software-design.html">Software Design & Engineering</a> |
+      <a href="algorithms.html">Algorithms</a>
     </div>
-  </div>
+  </header>
 
-  <div class="card">
-    <h2>Enhancement Summary (Milestone Three)</h2>
-    <p>
-      For this enhancement, I improved maintainability and scalability by reducing repetitive test logic and applying
-      a more algorithmic, structured execution approach. Instead of writing nearly identical test cases, I organized
-      input cases into collections and executed validations using consistent iteration patterns.
-    </p>
-    <p>
-      This supports stronger software engineering practices because new test cases can be added simply by adding a new
-      entry into the dataset rather than rewriting new test methods.
-    </p>
-  </div>
+  <main>
+    <div class="card">
+      <h2>Artifact Overview</h2>
+      <p>
+        This page documents my <strong>Algorithms &amp; Data Structures</strong> enhancement for CS 499.
+        The artifact is based on my CS 320 testing/validation project, where I improved the testing approach
+        using structured collections and repeatable execution patterns to reduce duplication and improve maintainability.
+      </p>
+    </div>
 
-  <div class="card">
-    <h2>Artifact Files & Documentation</h2>
-    <ul>
-      <li>
-        <strong>Algorithms Artifact Folder:</strong>
-        <a href="https://github.com/sylvianett/Portfolio_CapstoneCS499/tree/main/artifacts/algorithms" target="_blank" rel="noopener">
-          View Appointment Service Files (GitHub Folder)
-        </a>
-      </li>
+    <div class="card">
+      <h2>Skills Demonstrated</h2>
+      <span class="badge">Algorithmic thinking</span>
+      <span class="badge">Data structures (lists / collections)</span>
+      <span class="badge">Test automation</span>
+      <span class="badge">Maintainability</span>
+      <span class="badge">Validation & boundary testing</span>
+      <span class="badge">Readable, scalable test design</span>
+    </div>
 
-      <!-- OPTIONAL ZIP (only keep this section if you upload a ZIP later)
-      <li>
-        <strong>Enhanced ZIP:</strong>
-        <a href="https://github.com/sylvianett/Portfolio_CapstoneCS499/raw/main/artifacts/algorithms/REPLACE_WITH_YOUR_ZIP_FILENAME.zip" target="_blank" rel="noopener">
-          Download ZIP
-        </a>
-      </li>
-      -->
+    <div class="card">
+      <h2>Enhancement Summary (Milestone Three)</h2>
+      <ul>
+        <li><strong>Before:</strong> Test code included repetitive patterns across multiple methods.</li>
+        <li><strong>After:</strong> Organized test cases into structured datasets and improved execution patterns to reduce repetition and improve clarity.</li>
+        <li><strong>Result:</strong> A more maintainable, scalable testing approach that better reflects algorithmic reasoning and clean structure.</li>
+      </ul>
+    </div>
 
-      <li>
-        <strong>Milestone Three Enhancement Narrative:</strong>
-        <a href="https://raw.githubusercontent.com/sylvianett/Portfolio_CapstoneCS499/main/artifacts/algorithms/CS499_Milestone3_Algorithms_Narrative_Sylvia_Davis.docx" target="_blank" rel="noopener">
-          Download Narrative (DOCX)
-        </a>
-      </li>
-    </ul>
+    <div class="card">
+      <h2>Artifact Files & Documentation</h2>
+      <p>Use these links to view and download the Algorithms artifact materials:</p>
 
-    <p class="small-note">
-      If a download link returns a 404, the filename in GitHub may not match (spacing/capitalization).
-      Open the file inside GitHub and copy the exact filename.
-    </p>
-  </div>
+      <ul>
+        <li>
+          <strong>Algorithms Artifact Folder:</strong>
+          <a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/tree/main/artifacts/algorithms" target="_blank" rel="noopener">
+            View Algorithms Files (GitHub Folder)
+          </a>
+        </li>
 
-  <div class="card">
-    <h2>Reflection</h2>
-    <p>
-      Enhancing this artifact reinforced that testing is more than writing assertions—it involves designing a repeatable,
-      scalable process that can grow as requirements expand. One challenge was ensuring the parameterized approach still
-      clearly mapped back to original requirements without becoming too abstract. I addressed this by keeping datasets
-      organized by requirement area and maintaining clear naming and strong validation logic.
-    </p>
-  </div>
+        <li>
+          <strong>Milestone Three Enhancement Narrative:</strong>
+          <a href="https://raw.githubusercontent.com/sylvianett/Porfolio_CapstoneCS499/main/artifacts/algorithms/CS499_Milestone3_Algorithms_Narrative_Sylvia_Davis.docx"
+             target="_blank" rel="noopener">
+            Download Narrative (DOCX)
+          </a>
+        </li>
+
+        <li>
+          <strong>Key Source Files (view on GitHub):</strong>
+          <ul>
+            <li><a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/blob/main/artifacts/algorithms/Appointment.java" target="_blank" rel="noopener">Appointment.java</a></li>
+            <li><a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/blob/main/artifacts/algorithms/AppointmentService.java" target="_blank" rel="noopener">AppointmentService.java</a></li>
+            <li><a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/blob/main/artifacts/algorithms/AppointmentTest.java" target="_blank" rel="noopener">AppointmentTest.java</a></li>
+            <li><a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/blob/main/artifacts/algorithms/AppointmentServiceTest.java" target="_blank" rel="noopener">AppointmentServiceTest.java</a></li>
+            <li><a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/blob/main/artifacts/algorithms/README.md" target="_blank" rel="noopener">README.md</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <p class="small-note">
+        If a download link ever fails, it’s almost always because the filename or path doesn’t match exactly.
+        The DOCX link above uses the direct <code>raw.githubusercontent.com</code> path and your exact uploaded filename.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Reflection</h2>
+      <p>
+        Enhancing this artifact reinforced that testing is not only about writing assertions—it’s also about designing
+        a clean and scalable process for executing validations. Organizing test cases into structured collections and
+        applying a consistent execution pattern reduced duplication and made future updates easier. A key challenge was
+        keeping the tests readable and clearly mapped to the original requirements, so I kept datasets aligned to specific
+        requirement areas and used clear naming for test cases.
+      </p>
+    </div>
+  </main>
 
   <footer>
-    &copy; <span id="year"></span> Sylvia Davis • ePortfolio
+    <span id="year"></span> Sylvia Davis • ePortfolio
   </footer>
 
-</main>
-
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
