@@ -35,10 +35,10 @@
   <div class="card">
     <h2>Artifact Overview: SYLTrack (Mobile Application)</h2>
     <p>
-      SYLTrack is a mobile application project focused on tracking user weight entries over time. The application supports adding,
-      viewing, and managing weight data in a structured way and is designed to support consistency, usability, and maintainability.
-      This artifact was originally created earlier in my program and was selected for CS 499 because it demonstrates my ability to
-      design and engineer a complete software solution, including thoughtful user interaction, input validation, and organized code structure.
+      SYLTrack is a mobile application designed to help users track weight entries and progress toward goals. For CS 499, I selected
+      this artifact to demonstrate professional software engineering through maintainable architecture, consistent navigation, and
+      scalable data handling. This enhancement work focused on strengthening the foundation of the application so that new features and
+      visual improvements can be added on top of a stable structure.
     </p>
     <p><strong>Category:</strong> Software Design and Engineering</p>
   </div>
@@ -46,60 +46,74 @@
   <div class="card">
     <h2>Why This Artifact Is Included</h2>
     <p>
-      I included SYLTrack in my ePortfolio because it demonstrates professional software engineering skills beyond basic functionality.
-      It reflects my ability to plan a solution, structure code for maintainability, and improve the application through enhancement work.
-      This artifact also aligns with real-world development practices, including iterative improvement, testing/validation, and clear documentation.
+      I included SYLTrack in my ePortfolio because it demonstrates real-world software development skills: building a multi-screen
+      application, improving navigation and user flow, and enhancing data handling to support future growth. This artifact also shows my
+      ability to improve an existing codebase based on code review findings and apply professional practices like separation of concerns,
+      maintainability, and scalability.
     </p>
   </div>
 
   <div class="card">
-    <h2>Software Design & Engineering Skills Demonstrated</h2>
+    <h2>Skills Demonstrated</h2>
     <div>
-      <span class="badge">Object-Oriented Programming</span>
-      <span class="badge">Maintainable Code Structure</span>
-      <span class="badge">Input Validation</span>
-      <span class="badge">UI/UX Improvement</span>
-      <span class="badge">Documentation</span>
+      <span class="badge">Mobile App Architecture</span>
+      <span class="badge">Navigation & User Flow</span>
+      <span class="badge">Maintainability</span>
+      <span class="badge">Scalability</span>
+      <span class="badge">Data Handling</span>
     </div>
     <ul>
-      <li><strong>Design organization:</strong> improved structure to make the project easier to maintain and extend.</li>
-      <li><strong>Reliability:</strong> strengthened validation to prevent invalid inputs and improve consistency.</li>
-      <li><strong>Usability:</strong> refined user interactions and layout decisions to better support the end user.</li>
-      <li><strong>Professional communication:</strong> documented changes and design choices for portfolio presentation.</li>
+      <li><strong>Architecture improvements:</strong> strengthened the overall structure and organization to support scalability.</li>
+      <li><strong>Consistent navigation:</strong> introduced a centralized dashboard (SYLBoard) and a persistent bottom navigation bar.</li>
+      <li><strong>User-based data:</strong> improved handling so weight entries are tied to authenticated users.</li>
+      <li><strong>Goal tracking + insights:</strong> stored goals persistently and surfaced summary progress (recent weight, goal progress).</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>Enhancement Summary</h2>
-    <ul>
-      <li><strong>Before:</strong> Core features worked, but the project needed improved structure and clearer presentation.</li>
-      <li><strong>After:</strong> Enhanced the application to reflect stronger engineering practices, including cleaner structure and improved usability.</li>
-      <li><strong>Result:</strong> A more professional, maintainable application that better represents software engineering skills.</li>
-    </ul>
+    <h2>Enhancement Summary (Milestone Two)</h2>
+    <p>
+      For Milestone Two, I intentionally focused on strengthening architecture, functionality, and scalability rather than visual branding.
+      The primary enhancements included adding the SYLBoard dashboard, improving navigation consistency, and enhancing data handling and
+      summaries to provide more meaningful insight to the user.
+    </p>
+    <p>
+      I deferred advanced theming and branding elements (logos/icons) until later to ensure the application foundation remains stable,
+      secure, and maintainable before polishing the presentation layer.
+    </p>
   </div>
 
   <div class="card">
     <h2>Artifact Files & Documentation</h2>
-    <p>
-      I am organizing the SYLTrack artifact files and documentation for publication in my ePortfolio. This section will include:
-    </p>
     <ul>
-      <li>Enhanced SYLTrack code files</li>
-      <li>Enhancement narrative (Software Design & Engineering)</li>
-      <li>Supporting screenshots and/or a short demo overview (if applicable)</li>
+      <li>
+        <strong>Software Design Artifact Folder:</strong>
+        <a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/tree/main/artifacts/software-design" target="_blank">
+          View SYLTrack Files (GitHub Folder)
+        </a>
+      </li>
+      <li>
+        <strong>SYLTrack Enhanced ZIP:</strong>
+        <a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/blob/main/artifacts/software-design/SYLTrack_SylviaDavis%20Enhanced%20Milestone%20Two.zip" target="_blank">
+          Download SYLTrack (ZIP)
+        </a>
+      </li>
+      <li>
+        <strong>Milestone Two Enhancement Narrative:</strong>
+        <a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/blob/main/artifacts/software-design/CS499_Milestone_Two_Enhancement_Narrative_Sylvia_Davis.docx" target="_blank">
+          Download Narrative (DOCX)
+        </a>
+      </li>
     </ul>
-    <p>
-      <em>Note:</em> I will publish the final enhanced files here once the enhancements are finalized and reviewed.
-    </p>
   </div>
 
   <div class="card">
     <h2>Reflection</h2>
     <p>
-      Working on SYLTrack strengthened my understanding of how design decisions impact maintainability and user experience.
-      This artifact helped me practice improving an existing codebase by identifying weaknesses, refining structure, and making targeted changes
-      that provide clear value. A challenge in this process was balancing usability improvements with keeping the code organized and easy to maintain.
-      Overall, enhancing SYLTrack reinforced the importance of thoughtful design, iteration, and clear communication in professional software development.
+      Enhancing SYLTrack reinforced the importance of building a strong foundation before focusing on visual polish. I learned that
+      navigation consistency and clean architecture have a major impact on the usability and maintainability of an application.
+      One challenge was balancing improvements to user flow with keeping the code organized and scalable. Overall, this enhancement
+      strengthened my ability to revise an existing software solution with professional standards in mind.
     </p>
   </div>
 
