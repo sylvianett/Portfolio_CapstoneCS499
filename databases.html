@@ -1,151 +1,122 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Databases | Sylvia Davis</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-```
-<style>
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        background: #f4f4f4;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Databases | Sylvia Davis</title>
+  <style>
+    :root{
+      --gold: #d4af37;
+      --bg: #f6f6f6;
+      --card: #ffffff;
+      --text: #111;
+      --muted: #666;
+      --border: #e6e6e6;
     }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: var(--bg); color: var(--text); }
 
-    header {
-        background: #000;
-        color: white;
-        text-align: center;
-        padding: 30px 10px;
-    }
+    header { background: #111; color: #fff; padding: 26px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 36px; }
+    nav { margin-top: 10px; font-size: 14px; }
+    nav a { color: var(--gold); text-decoration: none; margin: 0 10px; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
 
-    header h1 {
-        margin: 0;
-        font-size: 32px;
-    }
+    main { max-width: 960px; margin: 24px auto; padding: 0 18px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 22px; margin: 16px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.04); }
+    h2 { margin-top: 0; font-size: 26px; }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0 0 22px; }
+    a { color: #5a3ec8; }
+    a:hover { text-decoration: underline; }
+    .small-note { font-size: 13px; color: var(--muted); margin-top: 10px; }
+    code { background: #f0f0f0; padding: 2px 6px; border-radius: 6px; }
 
-    nav {
-        margin-top: 10px;
-    }
-
-    nav a {
-        color: #d4af37;
-        text-decoration: none;
-        margin: 0 12px;
-        font-weight: bold;
-    }
-
-    nav a:hover {
-        text-decoration: underline;
-    }
-
-    .container {
-        max-width: 900px;
-        margin: 40px auto;
-        background: white;
-        padding: 25px;
-        border-radius: 10px;
-    }
-
-    h2 {
-        margin-top: 0;
-    }
-
-    .section {
-        margin-bottom: 35px;
-    }
-
-    ul {
-        line-height: 1.7;
-    }
-
-    footer {
-        text-align: center;
-        padding: 25px;
-        color: #777;
-        font-size: 14px;
-    }
-
-    .note {
-        font-size: 13px;
-        color: #777;
-        margin-top: 15px;
-    }
-</style>
-```
-
+    footer { text-align: center; color: var(--muted); padding: 30px 10px; font-size: 14px; }
+  </style>
 </head>
 
 <body>
-
-<header>
+  <header>
     <h1>Databases</h1>
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="software-design.html">Software Design</a> |
-        <a href="algorithms.html">Algorithms</a> |
-        <a href="databases.html">Databases</a> |
-        <a href="code-review.html">Code Review</a>
+      <a href="index.html">Home</a> |
+      <a href="software-design.html">Software Design</a> |
+      <a href="algorithms.html">Algorithms</a> |
+      <a href="databases.html">Databases</a> |
+      <a href="code-review.html">Code Review</a>
     </nav>
-</header>
+  </header>
 
-<div class="container">
+  <main>
+    <section class="card">
+      <h2>Overview</h2>
+      <p>
+        This artifact demonstrates database design and persistence within my SYLTrack mobile application.
+        The enhancement focused on improving SQLite data handling to support reliable CRUD operations and
+        strengthening how application data is stored and retrieved across sessions.
+      </p>
+    </section>
 
-```
-<div class="section">
-    <h2>Overview</h2>
-    <p>
-        This artifact demonstrates database design and persistence within my SYLTrack mobile
-        application. The enhancement focused on improving SQLite data handling, ensuring reliable
-        CRUD operations, and strengthening how application data is stored and retrieved across sessions.
-    </p>
-</div>
-
-<div class="section">
-    <h2>Enhancements Implemented</h2>
-    <ul>
+    <section class="card">
+      <h2>Enhancements Implemented</h2>
+      <ul>
         <li>Improved SQLite database structure</li>
         <li>Reliable create, read, update, delete (CRUD) operations</li>
         <li>Cleaner separation between UI and persistence logic</li>
         <li>More maintainable database access methods</li>
-        <li>Better data validation before storage</li>
-    </ul>
-</div>
+        <li>Better validation before storing data</li>
+      </ul>
+    </section>
 
-<div class="section">
-    <h2>Artifact Files & Documentation</h2>
-    <ul>
-        <li><a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/tree/main/artifacts/databases" target="_blank">View Database Files (GitHub Folder)</a></li>
-        <li><a href="REPLACE_WITH_NARRATIVE_LINK" target="_blank">Download Enhancement Narrative (DOCX)</a></li>
-        <li><a href="REPLACE_WITH_ZIP_LINK" target="_blank">Download Enhanced Application (ZIP)</a></li>
-    </ul>
+    <section class="card">
+      <h2>Artifact Files &amp; Documentation</h2>
+      <p>Use these links to view and download the Databases artifact materials:</p>
 
-    <p class="note">
-        If a download link fails, it is typically due to filename mismatch in GitHub.
-        The final portfolio uses direct raw.githubusercontent.com links.
-    </p>
-</div>
+      <ul>
+        <li>
+          <strong>Database Artifact Folder:</strong>
+          <a href="https://github.com/sylvianett/Porfolio_CapstoneCS499/tree/main/artifacts/databases" target="_blank" rel="noopener">
+            View Database Files (GitHub Folder)
+          </a>
+        </li>
 
-<div class="section">
-    <h2>Reflection</h2>
-    <p>
-        Through this enhancement I strengthened my understanding of persistent data management
-        within mobile applications. Implementing structured database access improved reliability
-        and highlighted the importance of separating data handling from interface logic. This
-        experience reinforced how thoughtful database design contributes directly to application
-        stability and maintainability.
-    </p>
-</div>
-```
+        <li>
+          <strong>Milestone Four Enhancement Narrative:</strong>
+          <a href="https://raw.githubusercontent.com/sylvianett/Porfolio_CapstoneCS499/main/artifacts/databases/CS499_Milestone4_Narrative.docx" target="_blank" rel="noopener">
+            Download Enhancement Narrative (DOCX)
+          </a>
+        </li>
 
-</div>
+        <li>
+          <strong>Enhanced Application (ZIP):</strong>
+          <a href="https://raw.githubusercontent.com/sylvianett/Porfolio_CapstoneCS499/main/artifacts/databases/SYLTrack_SylviaDavisEnhanced_Module5.zip" target="_blank" rel="noopener">
+            Download Enhanced Application (ZIP)
+          </a>
+        </li>
+      </ul>
 
-<footer>
-    2026 Sylvia Davis • ePortfolio
-</footer>
+      <p class="small-note">
+        If a download link ever fails, it’s almost always because the filename or path doesn’t match exactly.
+        These links use the direct <code>raw.githubusercontent.com</code> path and your exact uploaded filenames.
+      </p>
+    </section>
 
+    <section class="card">
+      <h2>Reflection</h2>
+      <p>
+        Enhancing the database portion of SYLTrack reinforced how important data consistency and clean persistence
+        logic are to application reliability. I strengthened my understanding of SQLite schema decisions, CRUD
+        patterns, and validation strategies to improve long-term maintainability and support future enhancements.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span id="year"></span> Sylvia Davis • ePortfolio
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
